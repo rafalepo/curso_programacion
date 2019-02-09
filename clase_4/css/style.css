@@ -69,7 +69,7 @@ a:hover {
 
 
 
-#menu ul il a {
+#menu ul li a {
 	display: block;
 	padding: 5px;
 	text-align: center;
@@ -217,4 +217,13 @@ color: green;
 	margin: 0px;
 	padding: 15px;
 	text-align: center;
+}
+
+
+@media screen and (min-width:320px) and (max-width:420px) {
+
+ 	#menu  {
+ 		display: none;
+ 	}
+
 }
