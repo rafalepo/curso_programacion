@@ -3,7 +3,7 @@ const fs = require("fs");
 
 
 // const port = PUERTO_DE_HEROKU|| PUERTO_MIO,
-const port = proccess.env.PORT || 80,
+const port = process.env.PORT || 80
 
 http.createServer((request, response) => {
 		
