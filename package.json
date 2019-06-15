@@ -4,7 +4,7 @@
   "description": "Servidor Web para alojar el Proyecto DX",
   "main": "index.js",
   "scripts": {
-    "start":"nodemon index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/eant/PWFE-M1-03#readme",
   "dependencies": {
     "fs": "0.0.1-security",
-    "http": "0.0.0"
+    "http": "0.0.0",
+    "nodemon": "^1.19.1"
   }
 }
